@@ -10,8 +10,16 @@
         <version>8</version>
     </parent>
 
+    <groupId>io.rhiot</groupId>
     <artifactId>vertx-proton</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <properties>
         <stack.version>3.2.1</stack.version>
